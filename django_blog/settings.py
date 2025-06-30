@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['ivantugas-production.up.railway.app']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://ivantugas-production.up.railway.app/',
+
+]
+
 
 # Application definition
 
